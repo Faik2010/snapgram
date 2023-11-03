@@ -1,6 +1,6 @@
 import React from 'react'
 
-const RootLayout = () => {
+const Profile = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const RootLayout = () => {
   )
 }
 
-export default RootLayout
+export default Profile
