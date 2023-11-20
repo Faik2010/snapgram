@@ -57,7 +57,7 @@ export const checkIsLiked = (likeList: string[], userId: string) => {
   return likeList.includes(userId);
 };
 
-export function formatDate (dateString:string):string {
+export function formatDate (dateString:string =""):string {
   const currentDate = new Date();
   const inputDate = new Date(dateString)
 
